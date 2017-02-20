@@ -1,0 +1,12 @@
+Submitted by Group 12 (Harshithaa Sundareswaran, Daniel Townley)
+
+Compilation and Execution:
+Please compile using the enclosed makefile. Compilation will produce two executables called server and client. 
+
+To run, first execute ./server. Then, in a separate terminal (optionally on a different host) execute ./client <hostname>, where hostname is the domain name or ip address of the host running the server. Type any string into the client terminal; the string will then be sent to and displayed by the server. 
+
+Extra Credit:
+The server can receive messages from multiple clients simultaneously. To test this facility, simply open multiple client applications in the manner specified above: the server will display messages from all clients. This functionality was introduced using multithreading
+
+Reference: 
+Both the client and the server are broadly modeled on the example found on pp 42-44 of Peterson and Davie's Computer Networks: a Systems Approach (5th ed.).
